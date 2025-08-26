@@ -15,7 +15,6 @@ This repo showcases how to use **Docker, AWS, and CI/CD pipelines** to deploy, m
 ---
 
 ## 📐 Architecture
-![Architecture](docs/architecture.png)
 
 Flow:
 1. IoT sensors → API → Odoo ERP (Dockerized)
@@ -35,7 +34,6 @@ Flow:
 ---
 
 ## 🔄 CI/CD Workflow
-![Pipeline](docs/pipeline.png)
 
 1. Developer pushes code → GitHub  
 2. GitHub Actions builds Docker images  
@@ -47,6 +45,6 @@ Flow:
 
 ## 📦 Quick Start (Local)
 ```bash
-git clone https://github.com/<your-username>/Robotani-DevOps.git
+git clone https://github.com/duap00/Robotani-DevOps.git
 cd Robotani-DevOps/infra
 docker-compose up -d
